@@ -12,13 +12,20 @@
 </head>
 <body>
     <!-- Charts for Graphics -->
-    <div class="form container text-center">
-        <label for="altura"><strong>Altura</strong></label>
-        <input type="text" name="altura" id="altura">
+    <div class="form">
+        <label for="altura"><strong>Digite la altura desde la que se soltará la bolsa de arena:</strong></label>
+        <br>
+        <input type="text" name="altura" id="altura" placeholder="Datos numéricos en metros">
+        <br>
+        <label for="velocidad"><strong>Ingrese la velocidad inicial del globo:</strong></label>
+        <br>
+        <input type="text" name="velocidad" id="velocidad" placeholder="Datos numéricos en m/s">
+        <br>
         <input type="submit" class="btn btn-primary" value="Enviar" onclick="altura()">
     </div>
-    <div class="container text-center">
+    <div class="graphics">
         <canvas id="myChart"></canvas>
+        <canvas id="mySecondChart"></canvas>
     </div>
     <div class="results" id="results">
         

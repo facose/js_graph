@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
 .miBoton {
     background-color: blueviolet;
     border-radius: 60px;
@@ -5,13 +14,24 @@
 }
 
 .form {
-    margin: 80px auto;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-bottom: 300px;
 }
 
-#myChart {
-    width: 60%;
-    max-width: 900px;
-    margin: 0 auto;
+.graphics {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 20%;
+}
+
+#altura,
+#velocidad {
+    width: 20%;
 }
 
 .results {
@@ -21,7 +41,11 @@
     font-size: 13px;
     border: 1px solid gray;
     margin-top: 15px;
-    margin-right: 15px;
+    margin-right: 10%;
+    max-width: 45%;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
 }
 
 .results ul {
